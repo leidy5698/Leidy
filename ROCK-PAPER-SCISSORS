@@ -1,0 +1,20 @@
+>>> #simple.py
+>>> import random
+>>> CHOICES = ["rock", "paper", "scissors"]
+>>> print( ("Make your throw")
+>>> user_choice=input("Type rock,paper, or scissors:")
+Type rock,paper, or scissors:
+>>> if user_choice in CHOICES:
+>>> computer_choice=random.choice(CHOICES)
+>>> print("\nYou threw '{}', the computer threw '{}'".format(user_choice, computer_choice))
+
+You threw '', the computer threw 'scissors'
+>>> 
+>>> print("Invalid choice. Please rock,paper,or scissors."
+... 
+>>> print("Type rock, paper, or scissors: rock")
+Type rock, paper, or scissors: rock
+>>> print("\nYou threw '{}', the computer threw '{}'".format(user_choice, computer_choice))
+
+You threw '', the computer threw 'scissors'
+>>> 
